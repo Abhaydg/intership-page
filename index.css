@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width:calc();
+    background-color: antiquewhite;
+    box-sizing: content-box;
+}
+@media (max-width: 800px){
+    .card{
+    width: cal(100%- 40px);}
+}
+button{
+    display: inline;
+    width: 100%;
+    margin: left 20px;  ;
+    background-color: aqua;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    
+
+}
+    
